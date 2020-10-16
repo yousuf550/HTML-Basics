@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- FORMS AND INPUT TAGS-->
+
+    <h2>This is HTML forms example</h2>
+    <!-- "action" & "name" attribute use for backend purpose  -->
+    <form action="backend.php">
+        <label for="name">Name: </label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div><br>
+
+        <label for="fatherName">Father Name: </label>
+        <!--fatherName is id-->
+        <div>
+            <input type="text" name="fName" id="fatherName">
+        </div><br>
+
+        <div>
+            Email: <input type="email" name="myName">
+        </div><br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div><br>
+        <div>
+            Numbers: <input type="number" name="myNo">
+        </div><br>
+        <div>
+            Are your elibile?: <input type="checkbox" name="myEligibility" checked>
+        </div><br>
+        <div>
+            Gender: Male <input type="radio" name="myGender">
+            Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div><br>
+        <div>
+            Write abour your self: <br> <textarea name="myText" cols="30" rows="10"></textarea>
+        </div><br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="coro">Corolla</option>
+                <option value="swt">Swift</option>
+                <option value="civic" selected>Civic</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
